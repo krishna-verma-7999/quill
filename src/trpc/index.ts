@@ -75,7 +75,7 @@ export const appRouter = router({
       return { url: stripeSession.url };
     }
 
-    // create strip user
+    // create stripe user
     const stripSession = await stripe.checkout.sessions.create({
       success_url: billingUrl,
       cancel_url: billingUrl,
