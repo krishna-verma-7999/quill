@@ -132,3 +132,6 @@ c. create trpc folder outside app folder but inside src folder
 1. npm run lint => to see if you have any error
 2. go to kinde and change the url.
 3. create a middleware file to protect your routes.
+4. to make /sign-up , /sign-in and /sign-out href work go to next.config.js file
+
+# making the shared link good :-

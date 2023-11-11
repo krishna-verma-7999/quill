@@ -186,14 +186,15 @@ const Page = () => {
                     ) : user ? (
                       <UpgradeButton />
                     ) : (
-                      <LoginLink
+                      <Link
+                        href="/sign-in"
                         className={buttonVariants({
                           className: "w-full",
                         })}
                       >
                         {user ? "Upgrade now" : "Sign up"}
                         <ArrowRight className="h-5 w-5 ml-1.5" />
-                      </LoginLink>
+                      </Link>
                     )}
                   </div>
                 </div>
