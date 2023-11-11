@@ -125,6 +125,7 @@ c. create trpc folder outside app folder but inside src folder
 3. we are add "tooltip" from shadcn
 4. install a package (npm install stripe)
 5. stripe and webhook is boiler plate that you can copy on all of your projects.
+6. to get stripe webhook end point go to webhook on stripe and copy stripe webhook key .
 
 # deployment :-
 
